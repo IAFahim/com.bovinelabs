@@ -84,14 +84,22 @@ MonoBehaviour:
   m_Parent: {fileID: -1284282594312467507}
   m_Actions: []
   m_Label: '@UI:Game'
-  m_Template: BovineLabs.Sample.UI.Views.Game.GameView, BovineLabs.Sample, Version=0.0.0.0,
-    Culture=neutral, PublicKeyToken=null
+  m_TemplateSettings:
+    rid: 851261738636017884
   m_Arguments: []
-  m_ShowBottomNavBar: 0
-  m_ShowAppBar: 0
-  m_ShowBackButton: 0
-  m_ShowDrawer: 0
-  m_ShowNavigationRail: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: 851261738636017884
+      type: {class: AnchorDestinationTemplate, ns: BovineLabs.Anchor, asm: BovineLabs.Anchor}
+      data:
+        m_ScreenType: BovineLabs.Sample.UI.Views.Game.GameView, BovineLabs.Sample,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_ShowBottomNavBar: 0
+        m_ShowAppBar: 0
+        m_ShowBackButton: 0
+        m_ShowDrawer: 0
+        m_ShowNavigationRail: 0
 --- !u!114 &-7055608030703456034
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -226,14 +234,22 @@ MonoBehaviour:
   m_Parent: {fileID: -6559890311979039774}
   m_Actions: []
   m_Label: '@UI:option'
-  m_Template: BovineLabs.Sample.UI.Views.Option.OptionsView, BovineLabs.Sample,
-    Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_TemplateSettings:
+    rid: 851261738636017885
   m_Arguments: []
-  m_ShowBottomNavBar: 1
-  m_ShowAppBar: 0
-  m_ShowBackButton: 0
-  m_ShowDrawer: 0
-  m_ShowNavigationRail: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: 851261738636017885
+      type: {class: AnchorDestinationTemplate, ns: BovineLabs.Anchor, asm: BovineLabs.Anchor}
+      data:
+        m_ScreenType: BovineLabs.Sample.UI.Views.Option.OptionsView, BovineLabs.Sample,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_ShowBottomNavBar: 0
+        m_ShowAppBar: 0
+        m_ShowBackButton: 0
+        m_ShowDrawer: 0
+        m_ShowNavigationRail: 0
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -282,14 +298,22 @@ MonoBehaviour:
   m_Actions:
   - {fileID: 2455655040138057443}
   m_Label: '@UI:Home'
-  m_Template: BovineLabs.Sample.UI.Views.Menu.HomeView, BovineLabs.Sample, Version=0.0.0.0,
-    Culture=neutral, PublicKeyToken=null
+  m_TemplateSettings:
+    rid: 851261738636017882
   m_Arguments: []
-  m_ShowBottomNavBar: 0
-  m_ShowAppBar: 0
-  m_ShowBackButton: 0
-  m_ShowDrawer: 0
-  m_ShowNavigationRail: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: 851261738636017882
+      type: {class: AnchorDestinationTemplate, ns: BovineLabs.Anchor, asm: BovineLabs.Anchor}
+      data:
+        m_ScreenType: BovineLabs.Sample.UI.Views.Menu.HomeView, BovineLabs.Sample,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_ShowBottomNavBar: 0
+        m_ShowAppBar: 0
+        m_ShowBackButton: 0
+        m_ShowDrawer: 0
+        m_ShowNavigationRail: 0
 --- !u!114 &1313778473273987451
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -302,20 +326,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 819e9866b5cc41e7ac482ba5fe89e09b, type: 3}
   m_Name: splash
   m_EditorClassIdentifier: 
-  m_Position: {x: -320, y: -639}
+  m_Position: {x: -318, y: -639}
   m_Guid: a65e34759180fc248aebf798ea604bce
   m_Parent: {fileID: -7532879379263821953}
   m_Actions:
   - {fileID: -4519737102504757554}
   m_Label: '@UI:Splash'
-  m_Template: BovineLabs.Sample.UI.Views.Menu.SplashView, BovineLabs.Sample, Version=0.0.0.0,
-    Culture=neutral, PublicKeyToken=null
+  m_TemplateSettings:
+    rid: 851261738636017881
   m_Arguments: []
-  m_ShowBottomNavBar: 0
-  m_ShowAppBar: 0
-  m_ShowBackButton: 0
-  m_ShowDrawer: 0
-  m_ShowNavigationRail: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: 851261738636017881
+      type: {class: AnchorDestinationTemplate, ns: BovineLabs.Anchor, asm: BovineLabs.Anchor}
+      data:
+        m_ScreenType: BovineLabs.Sample.UI.Views.Menu.SplashView, BovineLabs.Sample,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_ShowBottomNavBar: 0
+        m_ShowAppBar: 0
+        m_ShowBackButton: 0
+        m_ShowDrawer: 0
+        m_ShowNavigationRail: 0
 --- !u!114 &2455655040138057443
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -387,14 +419,22 @@ MonoBehaviour:
   m_Parent: {fileID: -9160375923928301191}
   m_Actions: []
   m_Label: '@UI:Loading'
-  m_Template: BovineLabs.Sample.UI.Views.Menu.LoadingView, BovineLabs.Sample, Version=0.0.0.0,
-    Culture=neutral, PublicKeyToken=null
+  m_TemplateSettings:
+    rid: 851261738636017886
   m_Arguments: []
-  m_ShowBottomNavBar: 0
-  m_ShowAppBar: 0
-  m_ShowBackButton: 0
-  m_ShowDrawer: 0
-  m_ShowNavigationRail: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: 851261738636017886
+      type: {class: AnchorDestinationTemplate, ns: BovineLabs.Anchor, asm: BovineLabs.Anchor}
+      data:
+        m_ScreenType: BovineLabs.Sample.UI.Views.Menu.LoadingView, BovineLabs.Sample,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_ShowBottomNavBar: 0
+        m_ShowAppBar: 0
+        m_ShowBackButton: 0
+        m_ShowDrawer: 0
+        m_ShowNavigationRail: 0
 --- !u!114 &4461908891943129193
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -412,14 +452,22 @@ MonoBehaviour:
   m_Parent: {fileID: 8751286032290811110}
   m_Actions: []
   m_Label: '@UI:Play'
-  m_Template: BovineLabs.Sample.UI.Views.Menu.PlayView, BovineLabs.Sample, Version=0.0.0.0,
-    Culture=neutral, PublicKeyToken=null
+  m_TemplateSettings:
+    rid: 851261738636017883
   m_Arguments: []
-  m_ShowBottomNavBar: 0
-  m_ShowAppBar: 0
-  m_ShowBackButton: 0
-  m_ShowDrawer: 0
-  m_ShowNavigationRail: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: 851261738636017883
+      type: {class: AnchorDestinationTemplate, ns: BovineLabs.Anchor, asm: BovineLabs.Anchor}
+      data:
+        m_ScreenType: BovineLabs.Sample.UI.Views.Menu.PlayView, BovineLabs.Sample,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_ShowBottomNavBar: 0
+        m_ShowAppBar: 1
+        m_ShowBackButton: 1
+        m_ShowDrawer: 0
+        m_ShowNavigationRail: 0
 --- !u!114 &8751286032290811110
 MonoBehaviour:
   m_ObjectHideFlags: 0

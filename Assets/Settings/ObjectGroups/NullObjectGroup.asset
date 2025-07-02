@@ -9,11 +9,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c9cc203d06d4fd0bc8d41c5d662ab8b, type: 3}
-  m_Name: UISystemTypes
+  m_Script: {fileID: 11500000, guid: b897169a0e9f44aca19368969755e6d9, type: 3}
+  m_Name: NullObjectGroup
   m_EditorClassIdentifier: 
-  description: 
-  types:
-  - States:
-    - game
-    Component: {fileID: 11400000, guid: 033e65269bdc5a64181ad5e29e25c801, type: 2}
+  id:
+    ID: 0
+  autoGroups: 0
+  groups: []
+  definitions: []
+  excludeGroups: []
+  excludeDefinitions: []

@@ -9,7 +9,7 @@ namespace BovineLabs.Sample.UI.Services
     using BovineLabs.Sample.UI.Elements;
     using UnityEngine;
 
-    [AutoRef(nameof(ControlSettings), nameof(ControlSettings.Schemas))]
+    [AutoRef(nameof(ControlSettings), nameof(ControlSettings.Schemas), nameof(ControlSchema), "Schemas/Control", false)]
     public class ControlSchema : ScriptableObject
     {
         public string Id;

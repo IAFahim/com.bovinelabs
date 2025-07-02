@@ -75,7 +75,7 @@ namespace BovineLabs.Sample.UI.Views.Menu
 #endif
         }
 
-        protected override void OnEnter(NavController controller, NavDestination destination, Argument[] args)
+        public override void OnEnter(NavController controller, NavDestination destination, Argument[] args)
         {
             base.OnEnter(controller, destination, args);
 

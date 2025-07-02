@@ -29,12 +29,5 @@ namespace BovineLabs.Sample.UI.Views
 
         // Just sealing to remove warnings of virtual
         public sealed override VisualElement contentContainer => this.scrollView.contentContainer;
-
-        protected override void OnEnter(NavController controller, NavDestination destination, Argument[] args)
-        {
-            base.OnEnter(controller, destination, args);
-
-            // Debug.Log($"{destination.name} {string.Join(",", args.Select(a => $"{a.name}:{a.value}"))}");
-        }
     }
 }

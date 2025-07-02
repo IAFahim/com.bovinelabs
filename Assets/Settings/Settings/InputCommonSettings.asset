@@ -22,12 +22,12 @@ MonoBehaviour:
   cursorPosition: {fileID: 7556732453195264739, guid: 7879de97618fbbc4a8b786dcab847f57, type: 3}
   settings: []
   debugSettings:
-  - rid: 7669883537343643901
+  - rid: 851261738636017880
   references:
     version: 2
     RefIds:
-    - rid: 7669883537343643901
-      type: {class: InputCoreDebug/Settings, ns: BovineLabs.Core.Input, asm: BovineLabs.Core.Extensions.Debug}
+    - rid: 851261738636017880
+      type: {class: InputCoreDebug/Settings, ns: BovineLabs.Core.Input.Debug, asm: BovineLabs.Core.Input.Debug}
       data:
         Name: InputCoreDebug
         TimeScaleDouble: {fileID: 107681519262277100, guid: 7879de97618fbbc4a8b786dcab847f57, type: 3}

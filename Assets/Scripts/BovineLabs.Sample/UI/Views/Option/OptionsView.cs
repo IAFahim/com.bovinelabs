@@ -9,6 +9,7 @@ namespace BovineLabs.Sample.UI.Views.Option
     using BovineLabs.Sample.UI.Views.Menu;
     using JetBrains.Annotations;
     using Unity.AppUI.UI;
+    using Unity.AppUI.Navigation;
     using UnityEngine.UIElements;
     using Button = Unity.AppUI.UI.Button;
 
@@ -88,9 +89,9 @@ namespace BovineLabs.Sample.UI.Views.Option
         }
 
         /// <inheritdoc/>
-        protected override void SetupBottomNavBar(BottomNavBar bottomNavBar)
+        protected override void SetupBottomNavBar(BottomNavBar bottomBar, NavController controller)
         {
-            base.SetupBottomNavBar(bottomNavBar);
+            base.SetupBottomNavBar(bottomNavBar, controller);
             {
                 var revertButton = new Button { title = RevertText };
                 revertButton.clicked += this.Revert;
