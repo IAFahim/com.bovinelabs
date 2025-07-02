@@ -16,7 +16,7 @@ namespace BovineLabs.Sample.UI.Views.Option
             this.AddToClassList(UssClassName);
 
             this.Add(viewModel.Resolution.CreateElement());
-#if UNITY_STANDALONE_WIN
+#if UNITY_STANDALONE
             this.Add(viewModel.WindowMode.CreateElement());
 #endif
         }
