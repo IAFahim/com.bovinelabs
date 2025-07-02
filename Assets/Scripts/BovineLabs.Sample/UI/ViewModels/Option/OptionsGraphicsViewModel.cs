@@ -9,13 +9,13 @@ namespace BovineLabs.Sample.UI.ViewModels.Option
     public class OptionsGraphicsViewModel : OptionTabViewModel
     {
         public readonly ResolutionOption Resolution;
-#if UNITY_STANDALONE_WIN
+#if UNITY_STANDALONE
         public readonly WindowModeOption WindowMode;
 #endif
         public OptionsGraphicsViewModel()
         {
             this.CreateOption(out this.Resolution);
-#if UNITY_STANDALONE_WIN
+#if UNITY_STANDALONE
             this.CreateOption(out this.WindowMode);
 #endif
         }
