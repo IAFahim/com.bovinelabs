@@ -22,6 +22,10 @@ namespace BovineLabs.Sample.UI.Views
             this.pickingMode = PickingMode.Ignore;
             this.contentContainer.pickingMode = PickingMode.Ignore;
             this.scrollView.pickingMode = PickingMode.Ignore;
+
+            this.Q(rightContainerUssClassName).pickingMode = PickingMode.Ignore;
+            this.Q(leftContainerUssClassName).pickingMode = PickingMode.Ignore;
+
             this.scrollView.Q<VisualElement>(className: ScrollView.contentAndVerticalScrollUssClassName).pickingMode = PickingMode.Ignore;
         }
 

@@ -4,6 +4,7 @@
 
 namespace BovineLabs.Sample.UI
 {
+    using System;
     using BovineLabs.Anchor;
     using BovineLabs.Sample.UI.Services;
     using BovineLabs.Sample.UI.ViewModels.Option;
@@ -11,6 +12,8 @@ namespace BovineLabs.Sample.UI
 
     public class BovineLabsAppBuilder : AnchorAppBuilder
     {
+        protected override Type NavVisualController => typeof(NavVisualController);
+
         /// <inheritdoc/>
         protected override void OnConfiguringApp(AppBuilder builder)
         {
