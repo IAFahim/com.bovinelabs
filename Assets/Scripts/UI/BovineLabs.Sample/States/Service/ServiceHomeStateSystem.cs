@@ -17,12 +17,17 @@ namespace BovineLabs.Sample.States.Service
     public partial struct ServiceHomeStateSystem : ISystem, ISystemStartStop
     {
         private UIHelper<HomeViewModel, HomeViewModel.Data> helper;
-
+#if DEBUG
+        private bool debugQuickStart;
+#endif
         /// <inheritdoc/>
         [BurstCompile]
         public void OnCreate(ref SystemState state)
         {
             StateAPI.Register<GameState, StateHome, ServiceStates>(ref state, "home");
+#if DEBUG
+            debugQuickStart = true;
+#endif
         }
 
         /// <inheritdoc/>
@@ -44,7 +49,13 @@ namespace BovineLabs.Sample.States.Service
         public void OnUpdate(ref SystemState state)
         {
             ref var binding = ref this.helper.Binding;
-
+#if DEBUG
+            if (debugQuickStart)
+            {
+                GameAPI.ServiceStateSet(ref state, ServiceStates.Game);
+                debugQuickStart = false;
+            }
+#endif
             if (binding.Private.TryConsume())
             {
                 GameAPI.ServiceStateSet(ref state, ServiceStates.Game);
